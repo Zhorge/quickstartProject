@@ -26,6 +26,7 @@ public class AfishaTest {
 
         iframeLogin = driver.findElement(By.xpath("//iframe[contains(@src, 'login')]")); // наши iframe логина
         driver.switchTo().frame(iframeLogin); // переключились в iframe
+        //driver.switchTo().parentFrame() - если нужно вернуться назад
 
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.id("login")));
         driver.findElement(By.id("login")).sendKeys("spartalex1993");
