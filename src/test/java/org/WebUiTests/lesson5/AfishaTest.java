@@ -43,7 +43,7 @@ public class AfishaTest {
         driver.get("https://ya.ru");
         Thread.sleep(3000);
         driver.switchTo().window(tabs.get(0));
-        ((JavascriptExecutor)driver).executeScript("alert(\"FDSFSDFDSFVCX\")");
+        ((JavascriptExecutor) driver).executeScript("alert(\"FDSFSDFDSFVCX\")");
         Thread.sleep(3000);
         driver.switchTo().alert().accept();
         Thread.sleep(2000);
