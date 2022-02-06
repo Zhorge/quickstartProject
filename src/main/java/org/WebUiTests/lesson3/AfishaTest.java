@@ -37,7 +37,7 @@ public class AfishaTest {
         Thread.sleep(1000);
 
         List<WebElement> filmsList = driver.findElements(By.xpath("//a[contains(@href, 'movie')]/ancestor::div[@data-test='ITEM']")); // находим все фильмы
-        filmsList.stream().filter(f -> f.getText().contains("Человек-паук: Нет пути домой")).findFirst().get().click();
+        filmsList.stream().filter(f -> f.getText().contains("Мы — монстры-2")).findFirst().get().click();
 
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//section[@data-test='PAGE-SECTION TITLE-SECTION']//button[@data-test='BUTTON FAVORITE']")));
         driver.findElement(By.xpath("//section[@data-test='PAGE-SECTION TITLE-SECTION']//button[@data-test='BUTTON FAVORITE']")).click();
