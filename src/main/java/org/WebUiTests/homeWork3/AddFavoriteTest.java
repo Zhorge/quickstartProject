@@ -1,4 +1,4 @@
-package org.WebUiTests.homeWorkLesson3;
+package org.WebUiTests.homeWork3;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

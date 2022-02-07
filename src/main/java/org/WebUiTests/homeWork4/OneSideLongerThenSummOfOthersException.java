@@ -1,4 +1,4 @@
-package org.WebUiTests.homeWorkLesson4;
+package org.WebUiTests.homeWork4;
 
 public class OneSideLongerThenSummOfOthersException extends Exception {
     public OneSideLongerThenSummOfOthersException(String message) {
