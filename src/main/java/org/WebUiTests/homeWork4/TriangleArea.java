@@ -1,4 +1,4 @@
-package org.WebUiTests.homeWorkLesson4;
+package org.WebUiTests.homeWork4;
 
 public class TriangleArea {
     public static double calcArea(double sideA, double sideB, double sideC) throws Exception {

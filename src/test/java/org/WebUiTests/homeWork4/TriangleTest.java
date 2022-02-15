@@ -1,4 +1,4 @@
-package org.WebUiTests.homeWorkLesson4;
+package org.WebUiTests.homeWork4;
 
 import org.WebUiTests.lesson4.FunctionsTest;
 import org.junit.jupiter.api.BeforeAll;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static org.WebUiTests.homeWorkLesson4.TriangleArea.calcArea;
+import static org.WebUiTests.homeWork4.TriangleArea.calcArea;
 import static org.junit.jupiter.api.Assertions.*;
 
 
