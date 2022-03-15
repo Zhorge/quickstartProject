@@ -62,6 +62,8 @@ public class AfishaPageObjectTest {
 
     @AfterEach
     void killDriver() {
+
+
         LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER); // запись логов из консоли разработчика
 //        Iterator<LogEntry> iterator = logEntries.iterator();
 //
